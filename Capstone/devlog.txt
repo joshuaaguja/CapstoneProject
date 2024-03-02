@@ -1,0 +1,6 @@
+*separate CSS file for login/registration and for the LMS itself
+*Azure SQL and Azure App Service for hosting (Azure Blob Storage (100 GB) for video/images)
+
+
+Feb 29
+- No authentication system yet for registration (need to add so no repeat accounts)

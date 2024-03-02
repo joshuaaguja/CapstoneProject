@@ -1,0 +1,26 @@
+html, body {
+  background-color: rgba(70, 124, 106, 0.568);
+  height: 100%; /*weird*/
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 10px;
+  color:rgba(73, 17, 17, 0.568)
+}
+
+.loginlogo img{
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.loginlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>BLink</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="resources/logo.png" alt="logo">
+          </span>
+
+          <div class="text header-text">
+            <span class="name">Juan Dela Cruz</span>
+            <span class="profession">3rd Year</span>
+          </div>
+        </div>
+
+        <i class='bx bx-chevron-right toggle'></i>
+        
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class='bx bx-search icon'></i>
+              <input type="text" placeholder="Search...">
+          </li>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class='bx bxs-dashboard icon'></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bxs-inbox icon' ></i>
+                <span class="text nav-text">Inbox</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bxs-book icon' ></i>
+                <span class="text nav-text">Courses</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-bookmark icon' ></i>
+                <span class="text nav-text">Bookmarks</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-glasses-alt icon' ></i>
+                <span class="text nav-text">AI</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bxs-face icon'></i>
+                <span class="text nav-text">Profile</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-help-circle icon' ></i>
+                <span class="text nav-text">Help</span>
+              </a>
+            </li>
+            
+            
+          </ul>
+        </div>
+        <div class="bottom-content">
+          <li class="">
+            <a href="#">
+              <i class='bx bx-log-out icon'></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+          <li class="mode">
+              <div class="moon-sun">
+                <i class='bx bx-moon icon moon' ></i>
+                <i class='bx bx-sun icon sun' ></i>
+              </div>
+              <span class="mode-text text">Dark Mode</span>
+
+              <div class="toggle-switch">
+                <span class="switch"></span>
+              </div>
+
+            </a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">AI</div>
+      
+      <div class="chatbot">
+        <header>
+          <h2>  Chatbot</h2>
+        </header>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Hi there <br> How can I help you today?</p>
+          </li>
+          <li class="chat outgoing">
+            <p>Putangina mo</p>
+          </li>
+        </ul>
+        <div class="chat-input">
+          <textarea placeholder="Enter a message..." required></textarea>
+          <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
