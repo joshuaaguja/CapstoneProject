@@ -4,3 +4,8 @@
 
 Feb 29
 - No authentication system yet for registration (need to add so no repeat accounts)
+
+March 33
+- Capstone Defense 1 Notes
+- Use academic analytics that exports stats into csv/xls file 
+- 
