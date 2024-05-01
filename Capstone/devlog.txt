@@ -1,4 +1,4 @@
-*separate CSS file for login/registration and for the LMS itself
+*separate CSS file for login/registration and for the LMS itself - (Lets not add registration, The admin/school will provide the credentials)
 *Azure SQL and Azure App Service for hosting (Azure Blob Storage (100 GB) for video/images)
 
 
